@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b43954;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: rgb(255, 94, 88);
+  color: #fff;
+  height: 20%;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-image: url("your-image-url.jpg"); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: #fff;
+  width: 80%;
+}
+
+.azl {
+  font-size: 50px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(255, 94, 88);
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Other Sections Styles */
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+p {
+  color: #fff;
+}
