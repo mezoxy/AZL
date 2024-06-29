@@ -1,73 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/34675fe8e1.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Website Name</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="https://www.mezoxy.tech">Sign Up</a></li>
-        </ul>
-      </nav>
+      <!-- <div></div> -->
+      <div id="pic"><div class="pic"></div></div>
+      <a href="#about">About</a>
+      <a href="#features">features</a>
+      <a href="https://www.mezoxy.tech">Sign In</a>
     </header>
+    <main>
+      <article class="par">
+        <h1>Discover <span>love</span> meet your soulmate</h1>
+        <a class="try" href="https://www.mezoxy.tech"
+          ><strong>Try it for free !!</strong></a
+        >
+      </article>
 
-    <section id="hero">
-      <div class="hero-content">
-        <strong class="azl">AZOUL</strong>
-        <h3>
-          Our web application, AZOUL, is a unique platform designed to bring
-          together individuals who share similar disabilities and diseases with
-          the goal of fostering meaningful connections that can lead to marriage
-        </h3>
-        <a href="#features" class="btn">Learn More</a>
-      </div>
-    </section>
-
-    <section id="features">
-      <h2>Features</h2>
-      <p>
-        Our advanced matching algorithm helps users find potential partners
-        based on compatibility factors such as shared disabilities, interests,
-        and values.
-      </p>
-      <p>
-        Our platform also offers support groups, forums, and resources to help
-        users navigate challenges related to disabilities and diseases while
-        building relationships.
-      </p>
-    </section>
-
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Write about your company or project.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Contact information and form can go here.</p>
-    </section>
-
-    <footer>
-      <p>&copy; 2024 Your Website. All rights reserved.</p>
-    </footer>
+      <img src="./img/azoulanimation.gif" class="cover" />
+      <!-- <h1 style="color: #ff4242" id="features">features</h1> -->
+      <article id="features" class="feature">
+        <div class="dis">
+          <p>
+            Our advanced matching algorithm helps users find potential partners
+            based on compatibility factors such as shared disabilities,
+            interests, and values.
+          </p>
+        </div>
+        <div class="title"><h1>Compatibility Match</h1></div>
+      </article>
+      <article class="feature">
+        <div class="title-left"><h1>Support Network</h1></div>
+        <div class="dis">
+          <p>
+            Our platform also offers support groups, forums, and resources to
+            help users navigate challenges related to disabilities and diseases
+            while building relationships.
+          </p>
+        </div>
+      </article>
+      <article class="about" id="about">
+        <p>
+          Our initial plan is to develop a web application focused on marriage,
+          as a means to learn and experiment with new technologies. However, we
+          aim to create something truly unique and impactful. During our
+          brainstorming sessions, we realized the potential of designing an app
+          specifically for people with disabilities. This app will not only
+          facilitate connections and relationships but also provide a supportive
+          community with resources and forums to help users navigate the
+          challenges related to disabilities. By focusing on this niche, we hope
+          to make a meaningful difference in the lives of our users while
+          advancing our technical skills.
+        </p>
+        <div class="profiles">
+          <div class="profile ayoub"></div>
+          <div class="profile imane"></div>
+          <h3>Ayoub Mezhar</h3>
+          <h3>Imane Essaidy</h3>
+          <nav style="color: white">
+            <a href="https://github.com/mezoxy"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ayoub-mezhar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://x.com/AyoubMezhar?t=EhCvs2jq9qlWsdkZe31HlA&s=09"
+              ><i class="fa-brands fa-square-x-twitter"></i
+            ></a>
+          </nav>
+          <nav style="color: white">
+            <a href="https://github.com/essaiydy"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+          </nav>
+          <nav class="source">
+            <a href="https://github.com/mezoxy/portfolio-AZOUL"
+              ><i class="fa-solid fa-code-branch"></i> Link to source Code</a
+            >
+          </nav>
+        </div>
+      </article>
+    </main>
+    <footer></footer>
   </body>
 </html>
